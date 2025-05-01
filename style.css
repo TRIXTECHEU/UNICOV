@@ -1,8 +1,8 @@
-.vfrc-header--title {
+.fptyqm0.fptyqm1.jyiuei4.jyiuei5 {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-  
+    background-image: url('https://i.imgur.com/8xZkEED.png') !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     background-position: 0 !important;
@@ -13,30 +13,49 @@
     color: transparent !important;
 }
 
-.vfrc-icon._1t7e06e0._11kfxpg8 {
-  display: none !important;
+.vfrc-card--description._1lbxmyd5 {
+  font-size: 12px;
 }
 
-.vfrc-icon._1t7e06e0._11kfxpg8::before {
-  background-image: url('https://example.com/moje-ikona.png');
+.vfrc-icon._1t7e06e0._11kfxpg8 svg {
+  visibility: hidden !important;
+}
+
+.vfrc-icon._1t7e06e0._11kfxpg8::after {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url('https://i.imgur.com/ofICM53.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 16px !important;
-  height: 16px !important;
+  transform: translate(-100%, 0%) !important;
 }
 
+._11kfxpg7 {
+  transform: translate(-7%, 0%) !important;
+}
+
+._15emaa41 {
+  font-weight: bold;
+}
+
+._1q15b0b1 {
+  color: #000;
+  font-weight: 600 !important;
+}
 
 .jyiuei2 {
     background-color: #fff !important;
 }
 
 .s9t60i0 {
-    border: 3px solid #FFD500 !important;
+    border: 3px solid #ffd500 !important;
 }
 
 .vfrc-chat, .s9t60i1 {
-    background-image: url('https://i.imgur.com/fjG0Gin.jpeg') !important;
+    background-image: url('https://i.imgur.com/eGfb76X.jpeg') !important;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -44,52 +63,74 @@
   }
 
   .vfrc-chat__dialog {
-    background-image: url('https://i.imgur.com/fjG0Gin.jpeg') !important;
+    background-image: url('https://i.imgur.com/eGfb76X.jpeg') !important;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-color: transparent !important;
   }
   
-button.vfrc-button[label="Start new chat"],
-button.vfrc-button[label="Cancel"] {
-  color: transparent !important;
-  position: relative !important;
-}
-
-button.vfrc-button[label="Start new chat"] span,
-button.vfrc-button[label="Cancel"] span {
-  display: none !important;
-}
-
-button.vfrc-button[label="Start new chat"]::before {
-  content: "Spustit nový chat" !important;
-  position: absolute !important;
-  top: 50% !important;
-  left: 50% !important;
-  transform: translate(-50%, -50%) !important;
-  color: white !important;
-  font-size: 14px !important;
-  font-weight: 600 !important;
-  font-family: inherit !important;
-  pointer-events: none !important;
-  white-space: nowrap !important;
-}
-
-button.vfrc-button[label="Cancel"]::before {
-  content: "Zrušit" !important;
-  position: absolute !important;
-  top: 50% !important;
-  left: 50% !important;
-  transform: translate(-50%, -50%);
-  color: #1a1e23 !important;
-  font-size: 14px !important;
-  font-weight: 600 !important;
-  font-family: inherit !important;
-  pointer-events: none !important;
-  white-space: nowrap !important;
-}
-
+  button.vfrc-button[label="Start new chat"],
+  button.vfrc-button[label="Cancel"] {
+    color: transparent !important;
+    position: relative !important;
+  }
+  
+  button.vfrc-button[label="Start new chat"] span,
+  button.vfrc-button[label="Cancel"] span {
+    display: none !important;
+  }
+  
+  button.vfrc-button[label="Start new chat"]::before {
+    content: "Spustit nový chat" !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    color: white !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    font-family: inherit !important;
+    pointer-events: none !important;
+    white-space: nowrap !important;
+  }
+  
+  button.vfrc-button[label="Cancel"]::before {
+    content: "Zrušit" !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    color: #1a1e23 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    font-family: inherit !important;
+    pointer-events: none !important;
+    white-space: nowrap !important;
+  }
+  
+  #vfrc-start-chat {
+    color: transparent !important;
+    position: relative !important;
+  }
+  
+  #vfrc-start-chat span {
+    display: none !important;
+  }
+  
+  #vfrc-start-chat::before {
+    content: "Spustit nový chat" !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    color: white !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    font-family: inherit !important;
+    pointer-events: none !important;
+    white-space: nowrap !important;
+  }
 
 @media (min-width: 768px) {
     .jyiuei6 > button:last-of-type::before {
@@ -187,8 +228,6 @@ button.vfrc-button[label="Cancel"]::before {
   }
   
   .g3dqfd2 {
-      width: 35px !important;
-      height: 35px !important;
       object-fit: cover !important;
       object-position: center !important;
       transform: none !important;
@@ -246,6 +285,12 @@ button.vfrc-button[label="Cancel"]::before {
       -webkit-user-drag: none !important;
       pointer-events: none !important;
   }
+
+  ._15s29m9a {
+    color: rgb(255, 255, 255) !important;
+    
+    letter-spacing: 0.2px !important;
+}
   
   ._1q15b0b1 {
     font-weight: 500 !important;
@@ -257,3 +302,15 @@ button.vfrc-button[label="Cancel"]::before {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15) !important;
     transform: translateY(-2px) !important;
   }
+
+  ._1t7e06e0 {
+    transform: translateX(-0.25px) !important;
+  }
+  
+  ._11kfxpg7 {
+      font-size: 11.5px !important;
+  }
+
+  ._11kfxpg7, .knxm730, .vfrc-user-response, ._15emaa42, .vfrc-chat, .vfrc-message p {
+    text-align: left !important;
+}
