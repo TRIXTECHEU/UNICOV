@@ -261,17 +261,15 @@
   }
   
   
-  /* Skryje původní obsah elementu, pokud je generován textově */
   .ticwq62 {
-    font-size: 0 !important; /* skryje veškerý vnitřní text */
+    font-size: 0 !important;
     position: relative;
     background-color: transparent;
   }
   
-  /* Přidá nový obsah */
   .ticwq62::before {
     content: "Chat byl ukončen" !important;
-    color: #656d75; /* nastav barvu, jakou chceš */
+    color: #656d75;
     position: relative;
     font-size: 11.5px !important;
   
