@@ -41,9 +41,6 @@
   transform: translate(-7%, 0%) !important;
 }
 
-._15emaa41 {
-  color: #000;
-}
 
 ._1q15b0b1 {
   color: #000;
@@ -290,6 +287,14 @@
     font-weight: 500 !important;
     transition: transform 0.4s ease, box-shadow 0.4s ease !important;
     font-size: 13px !important;
+  }
+
+  ._15emaa41 {
+    color: #515151;
+  }
+    
+  ._15emaa41:hover {
+    color: #000;
   }
   
   ._1q15b0b1:hover {
