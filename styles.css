@@ -1,16 +1,18 @@
-.fptyqm0.fptyqm1.jyiuei4.jyiuei5 {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    background-image: url('https://i.imgur.com/qtDzWCq.png') !important;
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    background-position: 0 !important;
-    transform: translate(-2%, 0%) !important;
-    width: 150px !important;
-    height: 80px !important;
-    font-size: 0px !important;
-    color: transparent !important;
+/* TrixTech s.r.o. @2025 */
+
+div[class*="vfrc-header"] img.vfrc-avatar {
+  display: block !important;
+  width: 150px !important;
+  height: 80px !important;
+  background-image: url('https://i.imgur.com/qtDzWCq.png') !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  border-radius: 0 !important;
+  object-fit: contain !important;
+  transform: translate(-2%, 0%) !important;
+  user-select: none !important;
+  pointer-events: none !important;
 }
 
 .vfrc-card--description._1lbxmyd5 {
