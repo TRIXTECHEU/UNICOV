@@ -196,7 +196,7 @@ window.LoadingAnimationExtension = {
       const spinnerAnimationContainer = document.createElement('div');
       spinnerAnimationContainer.className = 'rotating-point-spinner';
       // Uničov green
-      spinnerAnimationContainer.style.setProperty('--spinner-point-colour', '#008738');
+      spinnerAnimationContainer.style.setProperty('--spinner-point-colour', '#FFD500');
 
       loadingBox.appendChild(spinnerAnimationContainer);
 
